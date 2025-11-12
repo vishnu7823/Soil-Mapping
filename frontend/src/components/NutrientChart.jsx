@@ -36,7 +36,7 @@ export default function NutrientChart({ data }) {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="value" fill="#6b21a8" />
+          <Bar dataKey="value in PPM(Parts Per Million)" fill="#6b21a8" />
         </BarChart>
       </ResponsiveContainer>
 

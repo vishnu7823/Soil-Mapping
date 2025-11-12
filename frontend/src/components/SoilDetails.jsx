@@ -58,7 +58,7 @@ export default function SoilDetails({ data }) {
 
       {/* 🔹 Nutrient Summary */}
       <div className="nutrient-section">
-        <h4>🧪 Nutrient Composition</h4>
+        <h4>🧪 Nutrient Composition in PPM (Parts Per Million)</h4>
 
         <div className="nutrient-grid">
           <div>

@@ -1,13 +1,19 @@
 import fs from "fs";
+import path from "path";
 import Soil from "../models/soil.js";
 
 // ✅ Initialize Database from JSON
 export const initializeData = async (req, res) => {
   try {
-    const data = JSON.parse(fs.readFileSync("./soil_data_full_reconstructed.json", "utf-8"));
+    // Get the absolute path (important when hosted on Render)
+    const filePath = path.resolve("./soil_data_updated.json");
+    const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-    await Soil.deleteMany(); // Clear old data
+    // Step 1: Clear existing data
+    const deleted = await Soil.deleteMany({});
+    console.log(`🗑️ Deleted ${deleted.deletedCount} old records.`);
 
+    // Step 2: Prepare new data
     const bulkData = [];
     for (const [state, districts] of Object.entries(data)) {
       for (const [district, details] of Object.entries(districts)) {
@@ -19,11 +25,18 @@ export const initializeData = async (req, res) => {
       }
     }
 
+    // Step 3: Insert new data
     await Soil.insertMany(bulkData);
-    res.json({ message: "✅ Soil data successfully initialized into MongoDB", count: bulkData.length });
+    console.log(`✅ Inserted ${bulkData.length} new records.`);
+
+    res.status(200).json({
+      message: "✅ MongoDB successfully refreshed with new soil data.",
+      deletedCount: deleted.deletedCount,
+      insertedCount: bulkData.length,
+    });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Error initializing data" });
+    console.error("❌ Error initializing data:", error);
+    res.status(500).json({ error: "Error initializing data", details: error.message });
   }
 };
 
@@ -42,7 +55,8 @@ export const getDistricts = async (req, res) => {
   try {
     const { state } = req.params;
     const districts = await Soil.find({ state }).distinct("district");
-    if (!districts.length) return res.status(404).json({ error: "No districts found" });
+    if (!districts.length)
+      return res.status(404).json({ error: "No districts found for this state" });
     res.json(districts);
   } catch (error) {
     res.status(500).json({ error: "Error fetching districts" });
@@ -54,7 +68,8 @@ export const getSoilData = async (req, res) => {
   try {
     const { state, district } = req.params;
     const soilInfo = await Soil.findOne({ state, district });
-    if (!soilInfo) return res.status(404).json({ error: "District data not found" });
+    if (!soilInfo)
+      return res.status(404).json({ error: "District data not found" });
     res.json(soilInfo);
   } catch (error) {
     res.status(500).json({ error: "Error fetching soil data" });
