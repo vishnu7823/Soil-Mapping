@@ -46,7 +46,7 @@ Thumbs.db
 .pnp.js
 
 # Large or generated data (add your data files here)
-soil_data_full_reconstructed.json
+
 
 # Lockfiles (optional — keep if you want deterministic installs)
 # package-lock.json
