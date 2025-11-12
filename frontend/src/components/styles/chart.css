@@ -1,0 +1,31 @@
+.chart-container {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chart-container h4 {
+  color: #6b21a8;
+  margin-bottom: 10px;
+}
+
+.ph-card {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+
+.ph-acidic {
+  color: #ef4444;
+}
+
+.ph-normal {
+  color: #22c55e;
+}
+
+.ph-alkaline {
+  color: #3b82f6;
+}
