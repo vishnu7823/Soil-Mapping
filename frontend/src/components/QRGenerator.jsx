@@ -4,7 +4,9 @@ import "./styles/qr.css";
 
 
 export default function QRGenerator({ state, district }) {
-  const url = `${window.location.origin}/district/${encodeURIComponent(state)}/${encodeURIComponent(district)}`;
+ // 🟢 Use deployed site link (fallback to localhost for local dev)
+const frontendURL = process.env.REACT_APP_FRONTEND_URL || "http://localhost:3000";
+const url = `${frontendURL}/district/${encodeURIComponent(state)}/${encodeURIComponent(district)}`;
 
   return (
     <div className="qr-section">
