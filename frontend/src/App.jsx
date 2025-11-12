@@ -19,7 +19,7 @@ function App() {
         </Routes>
 
         <footer>
-          <p>© 2025 Soil Mapping | Designed by Vishnu</p>
+          <p>© 2025 Soil Mapping | Designed by Yoga Vaibhav & Developed by Kimaya shree</p>
         </footer>
       </div>
     </Router>
