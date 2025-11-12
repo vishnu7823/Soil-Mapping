@@ -1,6 +1,6 @@
 import fs from "fs";
 import Soil from "../models/soil.js";
-import soilData from "../soil_data_updated.json" assert { type: "json" };
+
 
 
 // ✅ Initialize Database from JSON
