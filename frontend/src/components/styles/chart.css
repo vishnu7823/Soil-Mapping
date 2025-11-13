@@ -9,23 +9,6 @@
 .chart-container h4 {
   color: #6b21a8;
   margin-bottom: 10px;
-}
-
-.ph-card {
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #f4f4f4;
-}
-
-.ph-acidic {
-  color: #ef4444;
-}
-
-.ph-normal {
-  color: #22c55e;
-}
-
-.ph-alkaline {
-  color: #3b82f6;
+  text-align: center;
+  font-weight: 600;
 }

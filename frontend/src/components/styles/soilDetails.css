@@ -5,14 +5,9 @@
   margin-top: 25px;
   text-align: left;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease;
 }
 
-.soil-card:hover {
-  transform: translateY(-3px);
-}
-
-.soil-card h3 {
+.soil-title {
   font-size: 1.5rem;
   color: #6b21a8;
   font-weight: 600;
@@ -21,7 +16,7 @@
   margin-bottom: 15px;
 }
 
-.soil-card h3 span {
+.soil-title span {
   color: #22c55e;
 }
 
@@ -40,12 +35,6 @@
   border-left: 4px solid #6b21a8;
   padding: 15px 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-}
-
-.info-item:hover {
-  background: #f3e8ff;
-  border-left-color: #22c55e;
 }
 
 .info-item label {
@@ -81,14 +70,8 @@
   border-radius: 15px;
   font-size: 0.85rem;
   font-weight: 500;
-  transition: transform 0.3s ease;
 }
 
-.crop-list span:hover {
-  transform: scale(1.05);
-}
-
-/* Nutrients */
 .nutrient-section h4 {
   color: #6b21a8;
   margin-bottom: 10px;
@@ -106,9 +89,4 @@
   border-radius: 8px;
   margin-bottom: 6px;
   font-size: 0.9rem;
-  transition: background 0.3s ease;
-}
-
-.nutrient-grid li:hover {
-  background: #e9e0fa;
 }
