@@ -1,92 +1,150 @@
+/* soilDetails.css */
 .soil-card {
   background: #ffffff;
-  border-radius: 16px;
-  padding: 25px 30px;
-  margin-top: 25px;
+  border-radius: 18px;
+  padding: 25px;
   text-align: left;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(107, 33, 168, 0.1);
 }
 
 .soil-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #6b21a8;
-  font-weight: 600;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(107, 33, 168, 0.2);
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .soil-title span {
   color: #22c55e;
+  background: rgba(34, 197, 94, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 1.4rem;
 }
 
 /* Grid Layout for Key Info */
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .info-item {
-  background: #f8f9fa;
-  border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc, #ffffff);
+  border-radius: 12px;
   border-left: 4px solid #6b21a8;
-  padding: 15px 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 18px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.info-item:hover {
+  transform: translateY(-2px);
 }
 
 .info-item label {
   display: block;
   font-size: 0.85rem;
   color: #6b7280;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .info-item p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  color: #333;
+  color: #1f2937;
+  margin: 0;
 }
 
 /* Crops Section */
+.crop-section {
+  margin: 25px 0;
+}
+
 .crop-section h4 {
   color: #22c55e;
-  margin-bottom: 8px;
-  font-size: 1.1rem;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .crop-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
 }
 
 .crop-list span {
-  background: linear-gradient(to right, #6b21a8, #22c55e);
+  background: linear-gradient(135deg, #6b21a8, #22c55e);
   color: white;
-  padding: 6px 12px;
-  border-radius: 15px;
-  font-size: 0.85rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
   font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.crop-list span:hover {
+  transform: scale(1.05);
+}
+
+.nutrient-section {
+  margin: 25px 0;
 }
 
 .nutrient-section h4 {
   color: #6b21a8;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .nutrient-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 15px;
 }
 
 .nutrient-grid li {
-  background: #f4f4f4;
-  padding: 6px 10px;
-  border-radius: 8px;
-  margin-bottom: 6px;
-  font-size: 0.9rem;
+  background: #f8fafc;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  border-left: 3px solid #22c55e;
+  transition: background 0.3s ease;
+}
+
+.nutrient-grid li:hover {
+  background: #f0f9ff;
+}
+
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .nutrient-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .soil-card {
+    padding: 20px;
+  }
 }

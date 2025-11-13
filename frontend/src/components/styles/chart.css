@@ -1,14 +1,31 @@
+/* chart.css */
 .chart-container {
   background: #fff;
-  border-radius: 15px;
-  padding: 20px;
-  margin-top: 20px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(107, 33, 168, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.chart-container:hover {
+  transform: translateY(-3px);
 }
 
 .chart-container h4 {
   color: #6b21a8;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: center;
   font-weight: 600;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 250px;
+  width: 100%;
 }

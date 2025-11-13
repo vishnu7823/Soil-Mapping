@@ -1,15 +1,27 @@
+/* map.css */
 .map-container {
-  margin-top: 20px;
-  border-radius: 15px;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(107, 33, 168, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.map-container:hover {
+  transform: translateY(-3px);
 }
 
 .map-container h4 {
-  background-color: #6b21a8;
+  background: linear-gradient(135deg, #6b21a8, #22c55e);
   color: white;
-  padding: 10px;
-  border-radius: 10px 10px 0 0;
+  padding: 15px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .leaflet-container {
