@@ -6,7 +6,8 @@ import Soil from "../models/soil.js";
 export const initializeData = async (req, res) => {
   try {
     // Absolute path for reliability on Render
-    const filePath = path.join(path.resolve(), "Backend", "soil_data_full_reconstructed.json");
+   const filePath = path.join(path.resolve(), "soil_data_full_reconstructed.json");
+
     const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
     // Step 1: Clear existing records
