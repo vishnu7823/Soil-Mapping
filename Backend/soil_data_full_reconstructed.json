@@ -1,5 +1,341 @@
 {
-  "Arunachal Pradesh": {
+
+  "Andaman & Nicobar Islands": {
+"North & Middle Andaman": {
+"soil": "Lateritic",
+"crops": ["Rice", "Coconut", "Spices"],
+"yields": [500, 1500, 120],
+"pH": 6.2,
+"microNutrients": { "iron": 150, "zinc": 2.5, "copper": 1.2, "manganese": 50 },
+"macroNutrients": { "nitrogen": 40, "phosphorus": 15, "potassium": 200 },
+"yearlyRainfall": 3200,
+"rainfallPercent": 267,
+"disasterHotspot": { "isHotspot": true, "type": "Cyclone" }
+},
+"South Andaman": {
+"soil": "Alluvial",
+"crops": ["Rice", "Coconut", "Banana"],
+"yields": [520, 1600, 600],
+"pH": 6.5,
+"microNutrients": { "iron": 140, "zinc": 2.8, "copper": 1.0, "manganese": 45 },
+"macroNutrients": { "nitrogen": 45, "phosphorus": 18, "potassium": 220 },
+"yearlyRainfall": 3100,
+"rainfallPercent": 258,
+"disasterHotspot": { "isHotspot": true, "type": "Cyclone" }
+},
+"Nicobar": {
+"soil": "Lateritic",
+"crops": ["Rice", "Coconut", "Fruits"],
+"yields": [480, 1400, 800],
+"pH": 6.0,
+"microNutrients": { "iron": 160, "zinc": 2.2, "copper": 1.3, "manganese": 55 },
+"macroNutrients": { "nitrogen": 38, "phosphorus": 12, "potassium": 180 },
+"yearlyRainfall": 3300,
+"rainfallPercent": 275,
+"disasterHotspot": { "isHotspot": true, "type": "Cyclone" }
+}
+},
+
+"Andhra Pradesh": {
+"Anantapur": {
+"soil": "Red",
+"crops": ["Rice", "Groundnut", "Cotton"],
+"yields": [500, 300, 400],
+"pH": 7.0,
+"microNutrients": { "iron": 120, "zinc": 1.8, "copper": 0.9, "manganese": 40 },
+"macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+"yearlyRainfall": 550,
+"rainfallPercent": 46,
+"disasterHotspot": { "isHotspot": true, "type": "Drought" }
+},
+"Chittoor": {
+"soil": "Red",
+"crops": ["Rice", "Sugarcane", "Banana"],
+"yields": [520, 750, 600],
+"pH": 6.8,
+"microNutrients": { "iron": 125, "zinc": 1.9, "copper": 0.8, "manganese": 42 },
+"macroNutrients": { "nitrogen": 48, "phosphorus": 19, "potassium": 155 },
+"yearlyRainfall": 900,
+"rainfallPercent": 75,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+"East Godavari": {
+"soil": "Alluvial",
+"crops": ["Rice", "Sugarcane", "Tobacco"],
+"yields": [540, 800, 250],
+"pH": 6.5,
+"microNutrients": { "iron": 130, "zinc": 2.0, "copper": 1.0, "manganese": 45 },
+"macroNutrients": { "nitrogen": 55, "phosphorus": 22, "potassium": 180 },
+"yearlyRainfall": 1100,
+"rainfallPercent": 92,
+"disasterHotspot": { "isHotspot": true, "type": "Flood" }
+},
+
+    "Guntur": {
+"soil": "Black",
+"crops": ["Rice", "Cotton", "Chillies"],
+"yields": [530, 420, 200],
+"pH": 7.2,
+"microNutrients": { "iron": 110, "zinc": 1.7, "copper": 0.8, "manganese": 38 },
+"macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+"yearlyRainfall": 800,
+"rainfallPercent": 67,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+"Kadapa": {
+"soil": "Red",
+"crops": ["Rice", "Groundnut", "Cotton"],
+"yields": [510, 320, 410],
+"pH": 7.1,
+"microNutrients": { "iron": 118, "zinc": 1.8, "copper": 0.9, "manganese": 41 },
+"macroNutrients": { "nitrogen": 49, "phosphorus": 20, "potassium": 152 },
+"yearlyRainfall": 700,
+"rainfallPercent": 58,
+"disasterHotspot": { "isHotspot": true, "type": "Drought" }
+},
+"Krishna": {
+"soil": "Black",
+"crops": ["Rice", "Cotton", "Sugarcane"],
+"yields": [540, 430, 780],
+"pH": 7.3,
+"microNutrients": { "iron": 108, "zinc": 1.6, "copper": 0.7, "manganese": 36 },
+"macroNutrients": { "nitrogen": 53, "phosphorus": 22, "potassium": 165 },
+"yearlyRainfall": 950,
+"rainfallPercent": 79,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+
+      "Kurnool": {
+"soil": "Red",
+"crops": ["Rice", "Groundnut", "Cotton"],
+"yields": [500, 310, 400],
+"pH": 7.0,
+"microNutrients": { "iron": 122, "zinc": 1.9, "copper": 0.9, "manganese": 43 },
+"macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+"yearlyRainfall": 650,
+"rainfallPercent": 54,
+"disasterHotspot": { "isHotspot": true, "type": "Drought" }
+},
+"Nellore": {
+"soil": "Red",
+"crops": ["Rice", "Sugarcane", "Banana"],
+"yields": [520, 760, 620],
+"pH": 6.9,
+"microNutrients": { "iron": 124, "zinc": 1.9, "copper": 0.8, "manganese": 42 },
+"macroNutrients": { "nitrogen": 48, "phosphorus": 19, "potassium": 158 },
+"yearlyRainfall": 1000,
+"rainfallPercent": 83,
+"disasterHotspot": { "isHotspot": true, "type": "Cyclone" }
+},
+"Prakasam": {
+"soil": "Red",
+"crops": ["Rice", "Cotton", "Chillies"],
+"yields": [530, 410, 210],
+"pH": 7.0,
+"microNutrients": { "iron": 120, "zinc": 1.8, "copper": 0.9, "manganese": 40 },
+"macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+"yearlyRainfall": 850,
+"rainfallPercent": 71,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+
+       "Srikakulam": {
+"soil": "Red",
+"crops": ["Rice", "Sugarcane", "Tobacco"],
+"yields": [540, 770, 260],
+"pH": 6.7,
+"microNutrients": { "iron": 126, "zinc": 2.0, "copper": 0.9, "manganese": 44 },
+"macroNutrients": { "nitrogen": 47, "phosphorus": 18, "potassium": 162 },
+"yearlyRainfall": 1200,
+"rainfallPercent": 100,
+"disasterHotspot": { "isHotspot": true, "type": "Flood" }
+},
+"Visakhapatnam": {
+"soil": "Red",
+"crops": ["Rice", "Cashews"],
+"yields": [540, 150],
+"pH": 6.8,
+"microNutrients": { "iron": 125, "zinc": 1.9, "copper": 0.8, "manganese": 42 },
+"macroNutrients": { "nitrogen": 48, "phosphorus": 19, "potassium": 155 },
+"yearlyRainfall": 1100,
+"rainfallPercent": 92,
+"disasterHotspot": { "isHotspot": true, "type": "Cyclone" }
+},
+"Vizianagaram": {
+"soil": "Red",
+"crops": ["Rice", "Sugarcane", "Tobacco"],
+"yields": [540, 770, 260],
+"pH": 6.7,
+"microNutrients": { "iron": 126, "zinc": 2.0, "copper": 0.9, "manganese": 44 },
+"macroNutrients": { "nitrogen": 47, "phosphorus": 18, "potassium": 162 },
+"yearlyRainfall": 1050,
+"rainfallPercent": 88,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+
+
+       "West Godavari": {
+"soil": "Alluvial",
+"crops": ["Rice", "Sugarcane", "Tobacco"],
+"yields": [540, 800, 250],
+"pH": 6.5,
+"microNutrients": { "iron": 130, "zinc": 2.0, "copper": 1.0, "manganese": 45 },
+"macroNutrients": { "nitrogen": 55, "phosphorus": 22, "potassium": 180 },
+"yearlyRainfall": 1000,
+"rainfallPercent": 83,
+"disasterHotspot": { "isHotspot": true, "type": "Flood" }
+},
+"Anakapalli": {
+"soil": "Red",
+"crops": ["Rice", "Cashews"],
+"yields": [540, 150],
+"pH": 6.8,
+"microNutrients": { "iron": 125, "zinc": 1.9, "copper": 0.8, "manganese": 42 },
+"macroNutrients": { "nitrogen": 48, "phosphorus": 19, "potassium": 155 },
+"yearlyRainfall": 1100,
+"rainfallPercent": 92,
+"disasterHotspot": { "isHotspot": true, "type": "Cyclone" }
+},
+"Bapatla": {
+"soil": "Black",
+"crops": ["Rice", "Cotton", "Chillies"],
+"yields": [530, 420, 200],
+"pH": 7.2,
+"microNutrients": { "iron": 110, "zinc": 1.7, "copper": 0.8, "manganese": 38 },
+"macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+"yearlyRainfall": 900,
+"rainfallPercent": 75,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+
+
+        "Dr. B.R. Ambedkar Konaseema": {
+"soil": "Alluvial",
+"crops": ["Rice", "Sugarcane"],
+"yields": [540, 800],
+"pH": 6.6,
+"microNutrients": { "iron": 128, "zinc": 2.0, "copper": 1.0, "manganese": 46 },
+"macroNutrients": { "nitrogen": 54, "phosphorus": 21, "potassium": 175 },
+"yearlyRainfall": 1050,
+"rainfallPercent": 88,
+"disasterHotspot": { "isHotspot": true, "type": "Flood" }
+},
+"Eluru": {
+"soil": "Black",
+"crops": ["Rice", "Cotton", "Sugarcane"],
+"yields": [540, 430, 780],
+"pH": 7.3,
+"microNutrients": { "iron": 108, "zinc": 1.6, "copper": 0.7, "manganese": 36 },
+"macroNutrients": { "nitrogen": 53, "phosphorus": 22, "potassium": 165 },
+"yearlyRainfall": 950,
+"rainfallPercent": 79,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+"Guntakal": {
+"soil": "Red",
+"crops": ["Rice", "Groundnut"],
+"yields": [500, 300],
+"pH": 7.0,
+"microNutrients": { "iron": 120, "zinc": 1.8, "copper": 0.9, "manganese": 40 },
+"macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+"yearlyRainfall": 600,
+"rainfallPercent": 50,
+"disasterHotspot": { "isHotspot": true, "type": "Drought" }
+},
+
+       "Kakinada": {
+"soil": "Alluvial",
+"crops": ["Rice", "Sugarcane", "Tobacco"],
+"yields": [540, 800, 250],
+"pH": 6.5,
+"microNutrients": { "iron": 130, "zinc": 2.0, "copper": 1.0, "manganese": 45 },
+"macroNutrients": { "nitrogen": 55, "phosphorus": 22, "potassium": 180 },
+"yearlyRainfall": 1100,
+"rainfallPercent": 92,
+"disasterHotspot": { "isHotspot": true, "type": "Flood" }
+},
+"Kavali": {
+"soil": "Red",
+"crops": ["Rice", "Sugarcane"],
+"yields": [520, 760],
+"pH": 6.9,
+"microNutrients": { "iron": 124, "zinc": 1.9, "copper": 0.8, "manganese": 42 },
+"macroNutrients": { "nitrogen": 48, "phosphorus": 19, "potassium": 158 },
+"yearlyRainfall": 950,
+"rainfallPercent": 79,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+"Machilipatnam": {
+"soil": "Black",
+"crops": ["Rice", "Cotton"],
+"yields": [530, 420],
+"pH": 7.2,
+"microNutrients": { "iron": 110, "zinc": 1.7, "copper": 0.8, "manganese": 38 },
+"macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+"yearlyRainfall": 900,
+"rainfallPercent": 75,
+"disasterHotspot": { "isHotspot": true, "type": "Cyclone" }
+},
+
+       "Narasaraopet": {
+"soil": "Red",
+"crops": ["Rice", "Cotton", "Chillies"],
+"yields": [530, 410, 210],
+"pH": 7.0,
+"microNutrients": { "iron": 120, "zinc": 1.8, "copper": 0.9, "manganese": 40 },
+"macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+"yearlyRainfall": 850,
+"rainfallPercent": 71,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+"Palnadu": {
+"soil": "Red",
+"crops": ["Rice", "Cotton"],
+"yields": [530, 410],
+"pH": 7.0,
+"microNutrients": { "iron": 120, "zinc": 1.8, "copper": 0.9, "manganese": 40 },
+"macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+"yearlyRainfall": 800,
+"rainfallPercent": 67,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+"Rajamahendravaram": {
+"soil": "Alluvial",
+"crops": ["Rice", "Sugarcane", "Tobacco"],
+"yields": [540, 800, 250],
+"pH": 6.5,
+"microNutrients": { "iron": 130, "zinc": 2.0, "copper": 1.0, "manganese": 45 },
+"macroNutrients": { "nitrogen": 55, "phosphorus": 22, "potassium": 180 },
+"yearlyRainfall": 1100,
+"rainfallPercent": 92,
+"disasterHotspot": { "isHotspot": true, "type": "Flood" }
+},
+
+        "Srikalahasti": {
+"soil": "Red",
+"crops": ["Rice", "Sugarcane", "Banana"],
+"yields": [520, 750, 600],
+"pH": 6.8,
+"microNutrients": { "iron": 125, "zinc": 1.9, "copper": 0.8, "manganese": 42 },
+"macroNutrients": { "nitrogen": 48, "phosphorus": 19, "potassium": 155 },
+"yearlyRainfall": 900,
+"rainfallPercent": 75,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+},
+"Tirupati": {
+"soil": "Red",
+"crops": ["Rice", "Groundnut"],
+"yields": [500, 300],
+"pH": 6.8,
+"microNutrients": { "iron": 125, "zinc": 1.9, "copper": 0.8, "manganese": 42 },
+"macroNutrients": { "nitrogen": 48, "phosphorus": 19, "potassium": 155 },
+"yearlyRainfall": 850,
+"rainfallPercent": 71,
+"disasterHotspot": { "isHotspot": false, "type": "None" }
+}
+},
+
+    "Arunachal Pradesh": {
     "Anjaw": { 
         "soil": "Mountain", 
         "crops": ["Rice", "Maize", "Oranges"], 
@@ -7659,4 +7995,7 @@
       "disasterHotspot": { "isHotspot": false, "type": "None" }
     }
   }
+  
+
+  
 }
