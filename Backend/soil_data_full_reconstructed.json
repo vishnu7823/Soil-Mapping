@@ -7658,88 +7658,7 @@
     }
   },
   "Punjab": {
-    "Amritsar": {
-      "soil": "Alluvial",
-      "crops": ["Wheat", "Rice", "Sugarcane"],
-      "yields": [460, 530, 760],
-      "pH": 7.5,
-      "microNutrients": {
-        "iron": 110,
-        "zinc": 1.7,
-        "copper": 0.8,
-        "manganese": 38
-      },
-      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
-      "yearlyRainfall": 700,
-      "rainfallPercent": 58,
-      "disasterHotspot": { "isHotspot": false, "type": "None" }
-    },
-    "Barnala": {
-      "soil": "Alluvial",
-      "crops": ["Wheat", "Rice", "Sugarcane"],
-      "yields": [460, 530, 760],
-      "pH": 7.5,
-      "microNutrients": {
-        "iron": 110,
-        "zinc": 1.7,
-        "copper": 0.8,
-        "manganese": 38
-      },
-      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
-      "yearlyRainfall": 700,
-      "rainfallPercent": 58,
-      "disasterHotspot": { "isHotspot": false, "type": "None" }
-    },
-    "Bathinda": {
-      "soil": "Alluvial",
-      "crops": ["Wheat", "Rice", "Sugarcane"],
-      "yields": [460, 530, 760],
-      "pH": 7.5,
-      "microNutrients": {
-        "iron": 110,
-        "zinc": 1.7,
-        "copper": 0.8,
-        "manganese": 38
-      },
-      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
-      "yearlyRainfall": 700,
-      "rainfallPercent": 58,
-      "disasterHotspot": { "isHotspot": false, "type": "None" }
-    },
-    "Faridkot": {
-      "soil": "Alluvial",
-      "crops": ["Wheat", "Rice", "Sugarcane"],
-      "yields": [460, 530, 760],
-      "pH": 7.5,
-      "microNutrients": {
-        "iron": 110,
-        "zinc": 1.7,
-        "copper": 0.8,
-        "manganese": 38
-      },
-      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
-      "yearlyRainfall": 700,
-      "rainfallPercent": 58,
-      "disasterHotspot": { "isHotspot": false, "type": "None" }
-    },
-    "Fatehgarh Sahib": {
-      "soil": "Alluvial",
-      "crops": ["Wheat", "Rice", "Sugarcane"],
-      "yields": [460, 530, 760],
-      "pH": 7.5,
-      "microNutrients": {
-        "iron": 110,
-        "zinc": 1.7,
-        "copper": 0.8,
-        "manganese": 38
-      },
-      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
-      "yearlyRainfall": 700,
-      "rainfallPercent": 58,
-      "disasterHotspot": { "isHotspot": false, "type": "None" }
-    }
-  },
-  "Fazilka": {
+    "Fazilka": {
     "soil": "Alluvial",
     "crops": ["Wheat", "Rice", "Sugarcane"],
     "yields": [460, 530, 760],
@@ -8011,6 +7930,88 @@
     "rainfallPercent": 58,
     "disasterHotspot": { "isHotspot": false, "type": "None" }
   },
+    "Amritsar": {
+      "soil": "Alluvial",
+      "crops": ["Wheat", "Rice", "Sugarcane"],
+      "yields": [460, 530, 760],
+      "pH": 7.5,
+      "microNutrients": {
+        "iron": 110,
+        "zinc": 1.7,
+        "copper": 0.8,
+        "manganese": 38
+      },
+      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+      "yearlyRainfall": 700,
+      "rainfallPercent": 58,
+      "disasterHotspot": { "isHotspot": false, "type": "None" }
+    },
+    "Barnala": {
+      "soil": "Alluvial",
+      "crops": ["Wheat", "Rice", "Sugarcane"],
+      "yields": [460, 530, 760],
+      "pH": 7.5,
+      "microNutrients": {
+        "iron": 110,
+        "zinc": 1.7,
+        "copper": 0.8,
+        "manganese": 38
+      },
+      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+      "yearlyRainfall": 700,
+      "rainfallPercent": 58,
+      "disasterHotspot": { "isHotspot": false, "type": "None" }
+    },
+    "Bathinda": {
+      "soil": "Alluvial",
+      "crops": ["Wheat", "Rice", "Sugarcane"],
+      "yields": [460, 530, 760],
+      "pH": 7.5,
+      "microNutrients": {
+        "iron": 110,
+        "zinc": 1.7,
+        "copper": 0.8,
+        "manganese": 38
+      },
+      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+      "yearlyRainfall": 700,
+      "rainfallPercent": 58,
+      "disasterHotspot": { "isHotspot": false, "type": "None" }
+    },
+    "Faridkot": {
+      "soil": "Alluvial",
+      "crops": ["Wheat", "Rice", "Sugarcane"],
+      "yields": [460, 530, 760],
+      "pH": 7.5,
+      "microNutrients": {
+        "iron": 110,
+        "zinc": 1.7,
+        "copper": 0.8,
+        "manganese": 38
+      },
+      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+      "yearlyRainfall": 700,
+      "rainfallPercent": 58,
+      "disasterHotspot": { "isHotspot": false, "type": "None" }
+    },
+    "Fatehgarh Sahib": {
+      "soil": "Alluvial",
+      "crops": ["Wheat", "Rice", "Sugarcane"],
+      "yields": [460, 530, 760],
+      "pH": 7.5,
+      "microNutrients": {
+        "iron": 110,
+        "zinc": 1.7,
+        "copper": 0.8,
+        "manganese": 38
+      },
+      "macroNutrients": { "nitrogen": 52, "phosphorus": 21, "potassium": 160 },
+      "yearlyRainfall": 700,
+      "rainfallPercent": 58,
+      "disasterHotspot": { "isHotspot": false, "type": "None" }
+    }
+  },
+  
   "Rajasthan": {
     "Ajmer": {
       "soil": "Desert",
