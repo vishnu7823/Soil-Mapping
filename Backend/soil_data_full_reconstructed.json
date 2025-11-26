@@ -8464,9 +8464,9 @@
       "yearlyRainfall": 300,
       "rainfallPercent": 25,
       "disasterHotspot": { "isHotspot": true, "type": "Drought" }
-    },
-  
-  
+    }
+  }
+  ,
  
  
   
@@ -8536,6 +8536,7 @@
       "disasterHotspot": { "isHotspot": true, "type": "Earthquake" }
     }
   },
+
   "Tamil Nadu": {
     "Ariyalur": {
       "soil": "Red",
@@ -11542,7 +11543,7 @@
     }
   }
 }
-}
+
 
 
 
