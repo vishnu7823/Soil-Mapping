@@ -8013,6 +8013,122 @@
   },
   
   "Rajasthan": {
+
+    "Sirohi": {
+    "soil": "Desert",
+    "crops": ["Bajra", "Moth Bean"],
+    "yields": [160, 120],
+    "pH": 8.2,
+    "microNutrients": {
+      "iron": 95,
+      "zinc": 1.4,
+      "copper": 0.5,
+      "manganese": 28
+    },
+    "macroNutrients": { "nitrogen": 42, "phosphorus": 17, "potassium": 135 },
+    "yearlyRainfall": 300,
+    "rainfallPercent": 25,
+    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
+  },
+  "Sri Ganganagar": {
+    "soil": "Desert",
+    "crops": ["Wheat", "Bajra", "Mustard"],
+    "yields": [450, 180, 200],
+    "pH": 8.0,
+    "microNutrients": {
+      "iron": 100,
+      "zinc": 1.5,
+      "copper": 0.6,
+      "manganese": 30
+    },
+    "macroNutrients": { "nitrogen": 45, "phosphorus": 18, "potassium": 140 },
+    "yearlyRainfall": 600,
+    "rainfallPercent": 50,
+    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
+  },
+  "Tonk": {
+    "soil": "Desert",
+    "crops": ["Wheat", "Bajra", "Mustard"],
+    "yields": [450, 180, 200],
+    "pH": 8.0,
+    "microNutrients": {
+      "iron": 100,
+      "zinc": 1.5,
+      "copper": 0.6,
+      "manganese": 30
+    },
+    "macroNutrients": { "nitrogen": 45, "phosphorus": 18, "potassium": 140 },
+    "yearlyRainfall": 600,
+    "rainfallPercent": 50,
+    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
+  },
+  "Udaipur": {
+    "soil": "Red",
+    "crops": ["Maize", "Pulses", "Soybean"],
+    "yields": [300, 180, 250],
+    "pH": 7.0,
+    "microNutrients": {
+      "iron": 120,
+      "zinc": 1.8,
+      "copper": 0.9,
+      "manganese": 40
+    },
+    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+    "yearlyRainfall": 800,
+    "rainfallPercent": 67,
+    "disasterHotspot": { "isHotspot": false, "type": "None" }
+  },
+
+     "Sawai Madhopur": {
+    "soil": "Red",
+    "crops": ["Maize", "Pulses", "Soybean"],
+    "yields": [300, 180, 250],
+    "pH": 7.0,
+    "microNutrients": {
+      "iron": 120,
+      "zinc": 1.8,
+      "copper": 0.9,
+      "manganese": 40
+    },
+    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+    "yearlyRainfall": 800,
+    "rainfallPercent": 67,
+    "disasterHotspot": { "isHotspot": false, "type": "None" }
+  },
+  "Sikar": {
+    "soil": "Desert",
+    "crops": ["Wheat", "Bajra", "Mustard"],
+    "yields": [450, 180, 200],
+    "pH": 8.0,
+    "microNutrients": {
+      "iron": 100,
+      "zinc": 1.5,
+      "copper": 0.6,
+      "manganese": 30
+    },
+    "macroNutrients": { "nitrogen": 45, "phosphorus": 18, "potassium": 140 },
+    "yearlyRainfall": 600,
+    "rainfallPercent": 50,
+    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
+  },
+    
+
+     "Rajsamand": {
+    "soil": "Red",
+    "crops": ["Maize", "Pulses", "Soybean"],
+    "yields": [300, 180, 250],
+    "pH": 7.0,
+    "microNutrients": {
+      "iron": 120,
+      "zinc": 1.8,
+      "copper": 0.9,
+      "manganese": 40
+    },
+    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+    "yearlyRainfall": 800,
+    "rainfallPercent": 67,
+    "disasterHotspot": { "isHotspot": false, "type": "None" }
+  },
     "Ajmer": {
       "soil": "Desert",
       "crops": ["Wheat", "Bajra", "Mustard"],
@@ -8348,136 +8464,12 @@
       "yearlyRainfall": 300,
       "rainfallPercent": 25,
       "disasterHotspot": { "isHotspot": true, "type": "Drought" }
-    }
-  },
-  "Pratapgarh": {
-    "soil": "Red",
-    "crops": ["Maize", "Pulses", "Soybean"],
-    "yields": [300, 180, 250],
-    "pH": 7.0,
-    "microNutrients": {
-      "iron": 120,
-      "zinc": 1.8,
-      "copper": 0.9,
-      "manganese": 40
     },
-    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
-    "yearlyRainfall": 800,
-    "rainfallPercent": 67,
-    "disasterHotspot": { "isHotspot": false, "type": "None" }
-  },
-  "Rajsamand": {
-    "soil": "Red",
-    "crops": ["Maize", "Pulses", "Soybean"],
-    "yields": [300, 180, 250],
-    "pH": 7.0,
-    "microNutrients": {
-      "iron": 120,
-      "zinc": 1.8,
-      "copper": 0.9,
-      "manganese": 40
-    },
-    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
-    "yearlyRainfall": 800,
-    "rainfallPercent": 67,
-    "disasterHotspot": { "isHotspot": false, "type": "None" }
-  },
-  "Sawai Madhopur": {
-    "soil": "Red",
-    "crops": ["Maize", "Pulses", "Soybean"],
-    "yields": [300, 180, 250],
-    "pH": 7.0,
-    "microNutrients": {
-      "iron": 120,
-      "zinc": 1.8,
-      "copper": 0.9,
-      "manganese": 40
-    },
-    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
-    "yearlyRainfall": 800,
-    "rainfallPercent": 67,
-    "disasterHotspot": { "isHotspot": false, "type": "None" }
-  },
-  "Sikar": {
-    "soil": "Desert",
-    "crops": ["Wheat", "Bajra", "Mustard"],
-    "yields": [450, 180, 200],
-    "pH": 8.0,
-    "microNutrients": {
-      "iron": 100,
-      "zinc": 1.5,
-      "copper": 0.6,
-      "manganese": 30
-    },
-    "macroNutrients": { "nitrogen": 45, "phosphorus": 18, "potassium": 140 },
-    "yearlyRainfall": 600,
-    "rainfallPercent": 50,
-    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
-  },
-  "Sirohi": {
-    "soil": "Desert",
-    "crops": ["Bajra", "Moth Bean"],
-    "yields": [160, 120],
-    "pH": 8.2,
-    "microNutrients": {
-      "iron": 95,
-      "zinc": 1.4,
-      "copper": 0.5,
-      "manganese": 28
-    },
-    "macroNutrients": { "nitrogen": 42, "phosphorus": 17, "potassium": 135 },
-    "yearlyRainfall": 300,
-    "rainfallPercent": 25,
-    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
-  },
-  "Sri Ganganagar": {
-    "soil": "Desert",
-    "crops": ["Wheat", "Bajra", "Mustard"],
-    "yields": [450, 180, 200],
-    "pH": 8.0,
-    "microNutrients": {
-      "iron": 100,
-      "zinc": 1.5,
-      "copper": 0.6,
-      "manganese": 30
-    },
-    "macroNutrients": { "nitrogen": 45, "phosphorus": 18, "potassium": 140 },
-    "yearlyRainfall": 600,
-    "rainfallPercent": 50,
-    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
-  },
-  "Tonk": {
-    "soil": "Desert",
-    "crops": ["Wheat", "Bajra", "Mustard"],
-    "yields": [450, 180, 200],
-    "pH": 8.0,
-    "microNutrients": {
-      "iron": 100,
-      "zinc": 1.5,
-      "copper": 0.6,
-      "manganese": 30
-    },
-    "macroNutrients": { "nitrogen": 45, "phosphorus": 18, "potassium": 140 },
-    "yearlyRainfall": 600,
-    "rainfallPercent": 50,
-    "disasterHotspot": { "isHotspot": true, "type": "Drought" }
-  },
-  "Udaipur": {
-    "soil": "Red",
-    "crops": ["Maize", "Pulses", "Soybean"],
-    "yields": [300, 180, 250],
-    "pH": 7.0,
-    "microNutrients": {
-      "iron": 120,
-      "zinc": 1.8,
-      "copper": 0.9,
-      "manganese": 40
-    },
-    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
-    "yearlyRainfall": 800,
-    "rainfallPercent": 67,
-    "disasterHotspot": { "isHotspot": false, "type": "None" }
-  },
+  
+  
+ 
+ 
+  
   "Sikkim": {
     "East Sikkim": {
       "soil": "Mountain",
@@ -9767,6 +9759,23 @@
     }
   },
   "Uttar Pradesh": {
+
+    "Pratapgarh": {
+    "soil": "Red",
+    "crops": ["Maize", "Pulses", "Soybean"],
+    "yields": [300, 180, 250],
+    "pH": 7.0,
+    "microNutrients": {
+      "iron": 120,
+      "zinc": 1.8,
+      "copper": 0.9,
+      "manganese": 40
+    },
+    "macroNutrients": { "nitrogen": 50, "phosphorus": 20, "potassium": 150 },
+    "yearlyRainfall": 800,
+    "rainfallPercent": 67,
+    "disasterHotspot": { "isHotspot": false, "type": "None" }
+  },
     "Agra": {
       "soil": "Alluvial",
       "crops": ["Wheat", "Rice", "Sugarcane"],
@@ -11532,6 +11541,7 @@
       "disasterHotspot": { "isHotspot": false, "type": "None" }
     }
   }
+}
 }
 
 
